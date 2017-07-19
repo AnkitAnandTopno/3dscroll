@@ -1,0 +1,35 @@
+body{
+	overflow: hidden;
+}
+#main-3dscroll::-webkit-scrollbar{
+	display: none;
+}
+#main-3dscroll{
+	overflow: auto;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+#submain-3dscroll
+{
+	position: relative;
+	height:10000px;
+}
+#list-3dscroll-ul{
+	position: fixed;
+	-webkit-perspective:50px;
+	perspective:70px;
+	font-size: 40px;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+.list-3dscroll{
+	position: absolute;
+}
+.list-3dscroll-image{
+	width:200px;
+}
